@@ -19,6 +19,6 @@ public class GreetingController {
 
     @RequestMapping("/ping")
     public String ping() {
-        return "ping!";
+        return "pong!";
     }
 }
